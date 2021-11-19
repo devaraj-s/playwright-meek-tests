@@ -2,7 +2,6 @@ import {expect, test} from "@playwright/test";
 import {OnBoardingPage} from "../../pages/OnBoardingPage"
 import {JoinNowPage} from "../../pages/JoinNowPage"
 
-
 let onBoardingPage = null
 let joinNowPage = null
 
