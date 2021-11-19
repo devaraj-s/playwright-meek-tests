@@ -1,7 +1,9 @@
 import {PlaywrightTestConfig} from '@playwright/test';
 
 const config: PlaywrightTestConfig = {
-    reporter: 'experimental-allure-playwright',
+    reporter: [
+        ['experimental-allure-playwright']
+    ],
     use: {
         baseURL: 'https://meek-staging.web.app',
         headless: false,
