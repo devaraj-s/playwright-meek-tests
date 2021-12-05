@@ -16,4 +16,4 @@ const config: PlaywrightTestConfig = {
         trace: 'retain-on-failure',
     },
 };
-export default config;
+export default {config};
